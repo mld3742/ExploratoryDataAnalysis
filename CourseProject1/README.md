@@ -23,3 +23,6 @@ The following descriptions of the 9 variables in the dataset are taken from the 
 <li><b>Sub_metering_2</b> energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light.</li>
 <li><b>Sub_metering_3</b>  energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
 </ol>
+
+
+There are 8 files that are of importance here: 4 R code files and 4 PNG files.  These are the files that were used to replicate the plots shown in the repository: <a href="https://github.com/rdpeng/ExData_Plotting1>https://github.com/rdpeng/ExData_Plotting1</a>
