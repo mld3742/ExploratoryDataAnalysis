@@ -26,3 +26,9 @@ The following descriptions of the 9 variables in the dataset are taken from the 
 
 
 There are 8 files that are of importance here: 4 R code files and 4 PNG files.  These are the files that were used to replicate the plots shown in the repository: <a href="https://github.com/rdpeng/ExData_Plotting1>https://github.com/rdpeng/ExData_Plotting1</a>
+
+The four plots that I have created are shown below: 
+
+### Plot 1
+
+![plot of plot1](figure/plot1.png) 
