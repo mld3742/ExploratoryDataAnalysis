@@ -40,13 +40,20 @@ You must address the following questions and tasks in your exploratory analysis.
 
 </ol>
 
-#### Plot for Question 1
+##### Plot for Question 1
 ![plot of question 1](figures/plot1.png) 
 
+##### Plot for Question 1
+![plot of question 2](figures/plot2.png) 
 
+##### Plot for Question 1
+![plot of question 3](figures/plot3.png) 
 
+##### Plot for Question 1
+![plot of question 4](figures/plot4.png) 
 
+##### Plot for Question 1
+![plot of question 5](figures/plot5.png) 
 
-
-
-
+##### Plot for Question 1
+![plot of question 6](figures/plot6.png) 

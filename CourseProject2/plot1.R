@@ -10,8 +10,10 @@ if(!exists("SCC")){
 # Using the base plotting system, make a plot showing the total PM2.5 emission from all sources 
 # for each of the years 1999, 2002, 2005, and 2008.
 
-aggregatedTotalByYear <- aggregate(Emissions ~ year, NEI, sum)
+aggregatedTotalByYear <- tapply(NEI$Emissions, NEI$year, sum)
 
 png('plot1.png')
-barplot(height=aggregatedTotalByYear$Emissions, names.arg=aggregatedTotalByYear$year, xlab="years", ylab=expression('total PM'[2.5]*' emission'),main=expression('Total PM'[2.5]*' emissions at various years'))
+plot(names(aggregatedTotalByYear), aggregatedTotalByYear, type="l", xlab = "Year", ylab = expression
+     ("Total" ~ PM[2.5] ~"Emissions (tons)"), main = expression("Total US" ~ 
+                                                                  PM[2.5] ~ "Emissions by Year"), col="Purple")
 dev.off()
