@@ -26,12 +26,22 @@ The overall goal of this assignment is to explore the National Emissions Invento
 You must address the following questions and tasks in your exploratory analysis. For each question/task you will need to make a single plot. Unless specified, you can use any plotting system in R to make your plot.
 
 <ol type="1">
-<li>Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the <b>base</b> plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.</li>
-![plot of plot1](figures/plot1.png) 
+<li> Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the <b>base</b> plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.</li>
+
+<li> Have total emissions from PM2.5 decreased in the <b>Baltimore City</b>, Maryland <font color="red">(fips == "24510")</font> from 1999 to 2008? Use the <b>base</b> plotting system to make a plot answering this question.
+
+<li> Of the four types of sources indicated by the <font color="red">type</font> (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for <b>Baltimore City</b>? Which have seen increases in emissions from 1999–2008? Use the <b>ggplot2</b> plotting system to make a plot answer this question.</li>
+
+<li> Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?</li>
+
+<li> How have emissions from motor vehicle sources changed from 1999–2008 in <b>Baltimore City</b>?</li>
+
+<li> Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (<font color="red">fips="06037"</font>). Which city has seen greater changes over time in motor vehicle emissions?</li>
 
 </ol>
 
-
+#### Plot for Question 1
+![plot of question 1](figures/plot1.png) 
 
 
 
